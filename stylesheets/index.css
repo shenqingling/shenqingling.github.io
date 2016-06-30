@@ -18,7 +18,8 @@ body {
 
 .index-pane .site-header {
     cursor: context-menu;
-    background-color: #208d4e;
+    /*background-color: #208d4e;*/
+    background-color: #286090;
     min-height: 30px;
 }
 
@@ -26,7 +27,8 @@ body {
 /*巨幕样式*/
 
 .index-pane .site-jumbotron {
-    background-color: #27AE60;
+    /*background-color: #27AE60;*/
+    background-color: #428bca;
 }
 
 .index-pane .site-jumbotron .container {
