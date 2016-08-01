@@ -23,6 +23,7 @@
   "homepage": "https://github.com/shenqingling/shenqingling.github.io#readme",
   "devDependencies": {},
   "dependencies": {
-    "jquery-lazyload": "^1.9.7"
+    "jquery-lazyload": "^1.9.7",
+    "primer-markdown": "^3.2.0"
   }
 }
