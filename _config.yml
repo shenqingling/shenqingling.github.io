@@ -15,7 +15,7 @@ title: welcome to my blog! # ex. I m Chuan
 name: shenqingling # ex. DONGChuan
 email: sql370@qq.com
 location: Shanghai, China # ex. Nice, France
-company: MyCompany
+# company: MyCompany
 company_url: my_company_website
 github_url: https://github.com/shenqingling # ex. https://github.com/DONGChuan
 description: description_of_your_web_site
@@ -28,18 +28,18 @@ navs:
     href: /
     label: Home
 
-  -
-    href: /open-source
-    label: Open-Source
+  #-
+  #  href: /open-source
+  #  label: Open-Source
 
-  -
-    href: /blog
-    label: Blog
+  #-
+  #  href: /blog
+  #  label: Blog
 
-  -
-    href: /bookmark
-    label: Bookmark
+  #-
+  #  href: /bookmark
+  #  label: Bookmark
 
-  -
-    href: /about
-    label: About
+  #-
+  #  href: /about
+  #  label: About

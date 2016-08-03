@@ -10,10 +10,10 @@ css: ['index.css', 'sidebar-popular-repo.css']
             <span class="meta-info">
                 <span class="octicon octicon-location"></span> {{ site.location }}
             </span>
-            <span class="meta-info hvr-grow">
+            <!-- <span class="meta-info hvr-grow">
                 <span class="octicon octicon-organization"></span>
             <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
-            </span>
+            </span> -->
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-mark-github"></span>
             <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
@@ -27,7 +27,7 @@ css: ['index.css', 'sidebar-popular-repo.css']
     <div class="row">
 
         <!-- Post List -->
-        <div class="col-md-8">
+        <div class="col-md-12">
 
             <ol class="post-list">
                 {% for post in site.posts %}
@@ -53,9 +53,9 @@ css: ['index.css', 'sidebar-popular-repo.css']
 
         </div>
 
-        <div class="col-md-4">
+       <!--  <div class="col-md-4">
             {% include sidebar-popular-repo.html %}
-        </div>
+        </div> -->
 
     </div>
 
