@@ -1,19 +1,20 @@
 ---
 layout: post
-title: Custome Command
+title: Mac 下自定义命令
 category: mac
 tags: [mac, custom command, alias]
 ---
 
-### Mac 下自定义命令步骤
+## Mac 下自定义命令步骤
 
-1.根目录下打开 .bash_profile
+### 1.根目录下打开 .bash_profile
 
 ```
 vim .bash_profile
 ```
 
-2.输入 i 进入编辑
+
+### 2.输入 i 进入编辑
 
 ```
 alias '自定义命令名称'='命令'
@@ -21,20 +22,20 @@ alias '自定义命令名称'='命令'
 alias l='ls'
 ```
 
-3.保存并退出
+### 3.保存并退出
 
 ```
 esc
 :wq
 ```
 
-4.激活 .bash_profile
+### 4.激活 .bash_profile
 
 ```
 source .bash_profile
 ```
 
-5.成功
+### 5.成功
 
 ---
 

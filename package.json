@@ -4,7 +4,8 @@
   "description": "沈庆玲的个人博客",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "jekyll server"
   },
   "repository": {
     "type": "git",
